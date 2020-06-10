@@ -38,6 +38,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Docke-Jenkins-Integration</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
