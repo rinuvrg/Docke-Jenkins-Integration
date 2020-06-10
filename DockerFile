@@ -1,0 +1,7 @@
+FROM java:8
+
+EXPOSE 8085
+COPY . /usr/lib/MongoDBDemo
+WORKDIR /usr/lib/MongoDBDemo
+
+CMD ["java", "-jar", "MongoDBDemo-0.0.1.jar"]
