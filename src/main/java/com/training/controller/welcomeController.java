@@ -11,6 +11,7 @@ public class welcomeController
 	@RequestMapping("/welcome")
 	public String welcome()
 	{
+		System.out.println("JenkinIntegration Server");
 		System.out.println("API HIT : "+Calendar.getInstance().getTime());
 		return "@@@@----------------Welcome API---------------------@@@@@";
 	}
