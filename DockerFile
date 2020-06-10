@@ -1,7 +1,7 @@
 FROM java:8
 
 EXPOSE 8085
-COPY . /usr/lib/MongoDBDemo
-WORKDIR /usr/lib/MongoDBDemo
+COPY . /usr/lib/Docke-Jenkins-Integration
+WORKDIR /usr/lib/Docke-Jenkins-Integration
 
-CMD ["java", "-jar", "MongoDBDemo-0.0.1.jar"]
+CMD ["java", "-jar", "Docke-Jenkins-Integration-0.0.1.jar"]
